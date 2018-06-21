@@ -4,3 +4,29 @@
 html {
     font-size: 62.5%; /* 1rem = 10px - use rem */
 }
+
+body{
+background-color: #191D32;
+
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.masterbox{
+  margin: auto;
+  vertical-align:middle;
+  font-family: 'Raleway';
+  background-color: white;
+  height: 25%;
+  width: 30%;
+border-radius: 5px;
+}
+.box1,.box2,.box3{
+  font-family: 'Raleway';
+  text-align: center;
+  border: 2px solid #e8d284;
+  border-radius: 3px;
+  margin: 5px 10px;
+}
